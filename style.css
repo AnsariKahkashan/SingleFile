@@ -639,12 +639,18 @@ nav {
   @media (max-width: 991px) {
     .contenetProgressBar {
       width: 100%;
-      flex-direction: column;
+      flex-direction: row;
     }
   
     .contenetProgressBar .card {
       margin: 20px auto;
     }
+
+    .navbar-nav{
+      background-color: white;
+      text-align: left;
+    }
+
   }
   
   
@@ -907,7 +913,11 @@ nav {
     text-transform: uppercase;
   }
   
+  .relative{
+    position: relative;
+  }
   
   
-  
-  
+  section#missionVision{
+    height: auto !important;
+  }
